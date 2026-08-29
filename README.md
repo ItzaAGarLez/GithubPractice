@@ -123,8 +123,7 @@ Para _revertir_ el commit, ve a la pestaña "Historial" en GitHub Desktop. Haz c
 ### 11. Crear una branch o rama
 
 Cuando se quieren hacer distintas modificaciones pero no quieren arriesgar modificar su archivo general se puede hacer una branch, que solo es un commit aparte que puede ser ignorado o puede juntarse a nuestra branch principal en un futuro
-
-Vamos a crear una branch llamada funcionalidad-api, una vez creada nos aseguramos de estar en la branch nueva, si por algo no lo estamos la seleccionamos donde dice "current branch"
+Vamos a crear una branch llamada .funcionalidad-api, una vez creada nos aseguramos de estar en la branch nueva, si por algo no lo estamos la seleccionamos donde dice "current branch"
 
 Una vez en ella vamos al archivo app.js y agregamos el siguiente código.
 
