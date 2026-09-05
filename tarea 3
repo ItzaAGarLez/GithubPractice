@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Práctica Formularios y Tabla</title>
+  <title>Itza Anahi Tabla</title>
 </head>
 <body>
  
@@ -41,9 +40,11 @@
       <label for="volumen">Nivel de volumen:</label>
       <input type="range" id="volumen" name="volumen" min="0" max="100"><br><br>
 
+      <!-- Botones -->
       <input type="submit" value="Enviar formulario">
       <input type="submit" value="Enviar extra">
       <button type="button">Acción JS</button>
+      <button type="button">Botón extra</button>
     </fieldset>
   </form>
 
