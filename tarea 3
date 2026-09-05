@@ -8,9 +8,7 @@
  
   <h1>Proyecto Web <sup>&copy;</sup></h1>
 
- 
   <form>
-   
     <fieldset>
       <legend>"Datos Personales"</legend>
 
@@ -30,30 +28,25 @@
       <input type="number" id="edad" name="edad" placeholder="18"><br><br>
     </fieldset>
 
-   
     <fieldset>
       <legend>"Preferencias"</legend>
 
-     
-      <label><input type="checkbox" name="suscripcion"> Suscribirse al boletín</label><br><br>
+      <label for="suscripcion"><input type="checkbox" id="suscripcion" name="suscripcion"> Suscribirse al boletín</label><br><br>
 
-      
       <p>Elige tu género musical favorito:</p>
-      <label><input type="radio" name="musica" value="rock"> Rock</label>
-      <label><input type="radio" name="musica" value="pop"> Pop</label>
-      <label><input type="radio" name="musica" value="jazz"> Jazz</label><br><br>
+      <label for="rock"><input type="radio" id="rock" name="musica" value="rock"> Rock</label>
+      <label for="pop"><input type="radio" id="pop" name="musica" value="pop"> Pop</label>
+      <label for="jazz"><input type="radio" id="jazz" name="musica" value="jazz"> Jazz</label><br><br>
 
-      
       <label for="volumen">Nivel de volumen:</label>
       <input type="range" id="volumen" name="volumen" min="0" max="100"><br><br>
 
-    
       <input type="submit" value="Enviar formulario">
+      <input type="submit" value="Enviar extra">
       <button type="button">Acción JS</button>
     </fieldset>
   </form>
 
-  
   <form action="https://www.youtube.com/results" method="get" target="_blank">
     <fieldset>
       <legend>"Búsqueda en YouTube"</legend>
@@ -63,13 +56,13 @@
     </fieldset>
   </form>
 
-  
   <table border="1">
     <thead>
       <tr>
-        <th categoria=</th>
-        <th nombre</th>
-        <th precio</th>
+        <th>Categoría</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+      </tr>
     </thead>
     <tbody>
       <tr>
