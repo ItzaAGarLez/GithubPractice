@@ -5,12 +5,12 @@
   <title>Práctica Formularios y Tabla</title>
 </head>
 <body>
-  <!-- Encabezado con copyright como superíndice -->
+  
   <h1>Proyecto Web <sup>&copy;</sup></h1>
 
-  <!-- FORMULARIO 1 -->
+  
   <form>
-    <!-- Fieldset de datos personales -->
+   
     <fieldset>
       <legend>"Datos Personales"</legend>
 
@@ -30,30 +30,31 @@
       <input type="number" id="edad" name="edad" placeholder="18"><br><br>
     </fieldset>
 
-    <!-- Fieldset de preferencias -->
+    
     <fieldset>
       <legend>"Preferencias"</legend>
 
-      <!-- Checkbox -->
+     
       <label><input type="checkbox" name="suscripcion"> Suscribirse al boletín</label><br><br>
 
-      <!-- Radio -->
-      <p>Elige tu género musical favorito:</p>
-      <label><input type="radio" name="musica" value="rock"> Rock</label>
-      <label><input type="radio" name="musica" value="pop"> Pop</label>
-      <label><input type="radio" name="musica" value="jazz"> Jazz</label><br><br>
+     
+      <p>Notificarme de:</p>
+      <label for="notif-ofertas"</label>
+      <label>type="checkbox" id="notif-ofretas" name="notificaciones" veleu="ofertas"</label>
+      <label>for="notif-ofertas">Novedades</label><br>
+      <br>
 
-      <!-- Input range -->
-      <label for="volumen">Nivel de volumen:</label>
+    
+      <label for="volumen">Califica la aplixacion:</label>
       <input type="range" id="volumen" name="volumen" min="0" max="100"><br><br>
 
-      <!-- Botones -->
+      
       <input type="submit" value="Enviar formulario">
       <button type="button">Acción JS</button>
     </fieldset>
   </form>
 
-  <!-- FORMULARIO 2 -->
+ 
   <form action="https://www.youtube.com/results" method="get" target="_blank">
     <fieldset>
       <legend>"Búsqueda en YouTube"</legend>
