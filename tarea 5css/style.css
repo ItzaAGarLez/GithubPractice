@@ -16,23 +16,42 @@ section {
 #mercurio{
     width: 30px;
     height: 100px;
+    overflow: scroll;
+}
+
+.boton-mercurio:hover{
+   transform: translateX(15px);
+
 }
 
 #venus{
     padding: 2rem;
     border-radius: 2rem;
 }
+.boton-venus:hover{
+    transform: rotate(160deg);
+}
+
+
 
 #tierra{
     border-style: groove;
     border-color: #7fe695;
     border-width: 2rem;
 }
+.boton-tierra:hover{
+    transform: scale(5);
+}
+
 
 #marte{
     border-width: 2rem;
     margin: 3rem;
 }
+.boton-marte:hover{
+    transform: skewX(-60deg);
+}
+
 
 #jupiter{
    width: 100px;
@@ -52,3 +71,14 @@ section {
     border-width: 30px;
     box-sizing: border-box;
 }
+
+#neptuno{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    bottom: 60px;
+    left: 50px;
+    margin: 1rem;
+}
+
