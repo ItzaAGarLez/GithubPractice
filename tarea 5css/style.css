@@ -12,3 +12,21 @@ margin: 2rem auto;
     border: none;
     background: none;
 }
+
+#mercurio{
+    width: 30px;
+    height: 100px;
+}
+
+#venus{
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+#tierra{
+    border-style: groove;
+    border-color: #7fe695;
+    border-width: 2rem;
+}
+
+
