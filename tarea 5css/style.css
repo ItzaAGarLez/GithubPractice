@@ -103,6 +103,52 @@ section {
     color: #82e07d;
     background-color: #367844;
 }
+@keyframes aparecer {
+    
+    to{opacity: 1;} 
+}
+
+}
+
+@keyframes cambiocolor {
+    0%{ background-color: #3d703a; }
+    50%{ background-color: #3d9b9d3a; }
+    100%{ backgsround-color: #425a41; }
+}
 
 
+.boton-urano{
+    animation: aparecer 2s ease-in-out infinite;
+}
+   
 
+.boton-neptuno{
+    animation: aparecer 10s ease-in-out infinite;
+}
+ 
+#nube{
+    width: 70px;
+    height: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-whidth: 5px;
+    border-color: #1269c7;
+    background-color: #7993d5;
+    position: relative;
+    top: 40px;
+    left: 100px;
+    z-index: 2;
+}
+
+#sol{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-whidth: 5px;
+    border-color: #f5e05a;
+    background-color: #f5e05a;
+    position: relative;
+    left: 50px;
+    z-index: -1;
+}
